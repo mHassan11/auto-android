@@ -1,0 +1,5 @@
+- ADB stands for Android Debug Bridge, a command-line tool that allows your PC to communicate with your Android device and perform several actions.
+- To install ADB, you need to download the platform-tools package for your operating system from [this link](https://developer.android.com/studio/releases/platform-tools) and extract it to a folder on your PC.
+- You also need to enable USB debugging on your Android device by going to Settings > About phone > Build number and tapping it seven times, then going to Settings > Developer options > USB debugging and turning it on.
+- To use ADB, you need to open a command prompt or terminal window on your PC and navigate to the folder where you extracted the platform-tools package. You can then run ADB commands by typing `adb` followed by the command name and arguments.
+- Some common ADB commands are `adb devices` (to list the connected devices), `adb reboot` (to reboot the device), `adb push` (to copy files from PC to device), `adb pull` (to copy files from device to PC), and `adb shell` (to run commands on the device).
